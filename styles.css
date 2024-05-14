@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.card {
+    background:800px white;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+.top-left{
+   display: flex;
+   flex-direction:row;
+   gap: 5px;
+
+}
+.top-left img{
+    width: 60px;
+    height: 30px;
+
+}
+h1 {
+    margin: 0;
+}
+.image img {
+    background-position: center;
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+
+}
