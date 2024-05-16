@@ -1,16 +1,20 @@
 body{
-    background-color: black;
+    background-color:black;
 }
 .card {
-    background:800px white;
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    margin:0 auto;
+ 
+
 }
 .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-
 
 }
 .top-left{
@@ -19,18 +23,20 @@ body{
    gap: 5px;
 
 }
-.top-left img{
-    width: 60px;
-    height: 30px;
-
-}
-h1 {
+.top-left h1, h2 {
     margin: 0;
+    color:red;
+
 }
 .image img {
-    background-position: center;
-    background-attachment: fixed;
+   width: 500px;
+   height: 400px;
+   object-fit:cover;
+   object-position: center;
     
-    background-repeat: no-repeat;
-
+}
+.icons {display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
